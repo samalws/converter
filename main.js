@@ -26,7 +26,21 @@ units.yard = units.foot*3
 units.mile = units.foot*5280
 
 units.newton = 1
-units.pound = 4.448220
+units.dyne = 1/100000
+units.kilopond = 9.80665
+units.pound = 4.48222
+units.ounce = units.pound/16
+units.poundal = 0.138225
+units.ton = units.pound*2000
+
+units.joule = 1
+units.calorie = 4.1868
+units.BTU = 1055.05585262
+units.electronvolt = 1.602176e-19
+units.footpound = 1.3558179483314
+units.footpoundal = 0.0421401100938048
+units.therm = 1.054804e8
+units.thermie = 4.1868e6
 
 function buttonClick() {
 	if (measurement.value === "") return;
