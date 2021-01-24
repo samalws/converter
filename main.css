@@ -1,6 +1,6 @@
 --mmmm
 
-.container {
+.container,body {
   position: absolute;
   top: 30%;
   width: 99%;
